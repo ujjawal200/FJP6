@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector.html</title>
+    <style>
+        /* universal selector*/
+        *{
+            background-color: aqua;
+            color: brown;
+        } 
+       div{
+            color: blueviolet;
+        }
+        /* class selector*/
+        .container{
+            color: chartreuse;
+            
+        }
+        /* id selector*/
+        #one{
+            font-size: larger;
+        }
+        /* grouping*/
+        .vone, .two , .three{
+            background-color: chartreuse;
+            font-size: larger;
+            color: blue;
+
+        }
+        /* selcting tag with more than one class*/
+        .container.container2{
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>
+        heading 
+    </h1>
+    <p id="one">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eaque, consequatur quo iure maxime dignissimos eos. Quos quia cupiditate eum labore, quod ex velit iusto repellat id possimus, eligendi consectetur?
+    </p>
+    <div class="container">
+        <h1>heading inside div</h1>
+        <p class="container container2" > selecting tag with more then one classes </p>
+    </div>
+    <div>
+    <h3>heading 3</h3>
+    </div>
+    <a href= >"link to nothing" </a>
+    
+    <div>
+        <h1>Grouping</h1>
+    <a class="vone">link grouping example 1</a>
+    <p class="two "> grouping example 2</p>
+    <h2 class="three">grouping example 3</h2>
+    </div>
+
+    
+</body>
+</html>
