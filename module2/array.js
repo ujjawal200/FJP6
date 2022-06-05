@@ -20,3 +20,24 @@ console.log("##############################");
 //1. push
 arr.push("new pushed item");
 console.log("Array after pushing"+arr);
+
+//2. pop (it remove element from last)
+
+console.log ("###########################");
+arr.pop();
+console.log("Array after applying pop:"+arr);
+
+//3. shift (remove element from start)
+
+console.log("############################");
+arr.shift();
+console.log("Array after applying shift:"+ arr);
+
+//4. unshift
+console.log ("###########################");
+arr.unshift("newly added");
+console.log("Array after applying unshift :"+ arr);
+
+//5. length
+let len = arr.length;
+console.log("The length of the array is :"+len);
