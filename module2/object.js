@@ -24,3 +24,15 @@ let capamerica = {
     }
 }
 console.log(capamerica);
+
+//particular key access
+console.log(capamerica.name);
+
+// city of capamerica
+console.log(capamerica.address.city);
+
+//functon as a value stored in a key of an object
+console.log(capamerica.sayHi());
+
+//directly call the function without giving it ot the console to avoid "undefined " eror
+capamerica.sayHi();
