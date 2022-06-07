@@ -14,3 +14,7 @@ console.log("#######################")
 
 console.log(__dirname); // this give the directory path.
 console.log(__filename);// this give the file path.
+
+// join two directory or file path
+let newFilepath = path.join(__dirname,"test.js");
+console.log(newFilepath);
